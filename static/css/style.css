@@ -1,0 +1,398 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.only-flex{
+    display: flex;
+    align-items: center;
+}
+/* header */
+
+.inner-header{
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 75px;
+    border-bottom: 1px solid #000000;
+}
+.inner-header .logo{
+transition: .2s ease-in-out;
+}
+.inner-header{
+    position: absolute;
+}
+.homelogo{
+    position: relative;
+}
+.inner-header .logo:hover{
+    filter: drop-shadow(0px 4px 10px #05641ebb);
+    transform: scale(1.1);
+}
+.inner-header nav{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.inner-header nav ul{
+    margin-right: 100px;
+}
+.inner-header nav ul li{
+    margin-right: 40px;
+}
+.inner-header .right-icons ul li:not(:last-child){
+    margin-right: 40px;
+}
+.inner-header .right-icons ul li svg:hover{
+    filter: drop-shadow(0px 4px 10px #01601abb);
+    transform: scale(1.1);
+}
+.inner-header .right-icons ul:first-child{
+    cursor: pointer;
+}
+.inner-header nav ul li a{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+.inner-header nav ul li a:hover{
+    text-shadow: 2px 1px 50px #01601af3;
+}
+
+/* main section */
+
+.inner-main{
+    width: 80%;
+    margin: 0 auto;
+    
+} 
+.inner-main img{
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+transition: .3s ease-in-out;
+}
+.inner-main img:hover{
+    filter: drop-shadow(0px 4px 10px #01601abb);
+}
+.inner-main .home-plants{
+    max-width: 500px;
+}
+.inner-main .home-plants h2{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.inner-main .home-plants p{
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.inner-main .buttons button{
+    cursor: pointer;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #01601B;
+    border-radius: 10px;
+    padding: 15px 50px;
+    border: none;
+    width: 196px;
+
+}
+.inner-main .buttons button:hover{
+    font-size: 20px;
+    text-shadow: 2px 1px 10px #adf13fef;
+}
+.inner-main .social-icons svg{
+    margin-top: 20px;
+}
+.inner-main .social-icons svg:hover{
+    filter: drop-shadow(0px 4px 10px #01601abb);
+    transform: scale(1.1);
+}
+
+/* section part */
+
+section .section-container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 75px;
+}
+section .section-container h3{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 120px 0 20px 0;
+}
+section .section-container .plant-grid .plant-box{
+    width: 370px;
+    margin: 0 auto;
+    position: relative;
+}
+section .section-container .plant-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 60px;
+    row-gap: 60px;
+}
+section .section-container .plant-grid .plant-box .name-price {
+    background: rgba(54, 121, 79, 0.55);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 8px 15px;   
+    opacity: 0.6;
+}
+section .section-container .plant-grid .plant-box .name-price h5{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+section .section-container .plant-grid .plant-box .name-price button{
+    font-family: 'Helvetica Neue';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+section .section-container .plant-grid .plant-box button{
+    cursor: pointer;
+    position: absolute;
+    left: 25%;
+    bottom: 20%;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: transparent;
+    background: transparent;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    transition: .2s ease-in-out;
+}
+.plant-box:hover img {
+    opacity: 0.5;
+}
+section .section-container .plant-grid .plant-box button:hover{
+    filter: drop-shadow(0px 4px 10px #01601abb);
+    transform: scale(1.1);
+}
+section .section-container .plant-grid .plant-box:hover button{
+    color: #0F6845;
+    background: #FFFFFF;
+}
+section .section-container .plant-grid .plant-box:hover .name-price{
+    opacity: 1;
+    background: #36794F;
+}
+
+/* pant care section */
+
+section .section-container .palnts-care .care-box{
+    width: 630px;
+    height:600px;
+    margin-bottom: 150px;
+}
+section .section-container .palnts-care .care-box h4{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin: 15px 0 15px 10px;
+}
+section .section-container .palnts-care .care-box p{
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin: 10px 10px;
+    text-align: start;
+}
+section .section-container .palnts-care .care-box .btn a{
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #01601B;
+    float: right;
+}
+section .Plant-Accessories {
+    position: relative;
+}
+section .Plant-Accessories .flex-palnt-accessories{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+section .Plant-Accessories .flex-palnt-accessories h3{
+    margin-left: 100px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    
+}
+section .Plant-Accessories .flex-palnt-accessories img{
+    border-bottom-right-radius: 30%;
+}
+section .Plant-Accessories .plant-children{
+    position: absolute;
+    top: 20%;
+    right: 28%;
+    width: 750px;
+    background: #ECF1EE;
+    box-shadow: 10px 23px 29px 14px rgba(215, 242, 225, 0.2);
+    border-radius: 16px;
+}
+section .Plant-Accessories .plant-children .top-p{
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding: 100px 125px 0 125px;
+}
+.bottom-p{
+    padding: 20px 125px 100px 125px;
+}
+
+/* footer */
+
+footer{
+    background-color: 
+    #255338;
+
+}
+footer .top-side{
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+footer .top-side .left-part .logo{
+    cursor: pointer;
+}
+footer .top-side .left-part .logo:hover{
+    filter: drop-shadow(2px 1px 10px #adf13fef);
+}
+footer .top-side .left-part p{
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 90px 0 20px 0;
+}
+.email{
+    position: relative;
+}
+
+.footer-email[type=email] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    background: #255338;
+    border-radius: 10px;
+    padding: 15px 0 15px 15px;
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+footer .top-side .left-part .email img{
+    position: absolute;
+    top: 40%;
+    left: 53%;
+    cursor: pointer;
+}
+footer .top-side .left-part .socials{
+    margin: 50px 0 30px 0;
+    gap: 25px;
+    transition: .4s ease-in-out;
+}
+footer .top-side .left-part .socials a:hover{
+    filter: drop-shadow(2px 1px 10px #adf13fef);
+    transform: scale(1.1);
+}
+footer .top-side .right-part{
+    gap: 120px;
+    display: flex;
+}
+footer .top-side .right-part h4{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+footer .top-side .right-part a{
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.bottom-side {
+    width: 100%;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px 60px 20px 0;
+    border-top:  1px solid #FFFFFF;;
+}
+.bottom-side a{
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}

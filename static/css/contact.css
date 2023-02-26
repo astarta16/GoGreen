@@ -1,0 +1,278 @@
+
+footer{
+    background-color: 
+    #255338;
+
+}
+footer .top-side{
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+footer .top-side .left-part .logo{
+    cursor: pointer;
+}
+footer .top-side .left-part .logo:hover{
+    filter: drop-shadow(2px 1px 10px #adf13fef);
+}
+footer .top-side .left-part p{
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 90px 0 20px 0;
+}
+.email{
+    position: relative;
+}
+
+.footer-email[type=email] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    background: #255338;
+    border-radius: 10px;
+    padding: 15px 0 15px 15px;
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+footer .top-side .left-part .email img{
+    position: absolute;
+    top: 40%;
+    left: 53%;
+    cursor: pointer;
+}
+footer .top-side .left-part .socials{
+    margin: 50px 0 30px 0;
+    gap: 25px;
+    transition: .4s ease-in-out;
+}
+footer .top-side .left-part .socials a:hover{
+    filter: drop-shadow(2px 1px 10px #adf13fef);
+    transform: scale(1.1);
+}
+footer .top-side .right-part{
+    gap: 120px;
+    display: flex;
+}
+footer .top-side .right-part h4{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+footer .top-side .right-part a{
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.bottom-side {
+    width: 100%;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px 60px 20px 0;
+    border-top:  1px solid #FFFFFF;;
+}
+.bottom-side a{
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+.contact-container {
+    position: relative;
+    margin-top: 200px;
+    width: 100%;
+    height: 1080px;
+    background-image: url(../images/contact/annie-spratt-yyXw1lGJypI-unsplash\ 1.png);
+}
+.inner-contact-conteiner{
+    width: 97%;
+    position: absolute;
+    top: 2.5%;
+    bottom: 2.5%;
+    left: 1.2%;
+    background-color: #01601a8a;
+}
+.contact-container .inner-contact-conteiner h2{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 28px 0 115px 0;
+}
+.contact-container .inner-contact-conteiner .contact-info{
+    margin:0 115px ;
+}
+.contact-container .inner-contact-conteiner .contact-info .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-container .inner-contact-conteiner .contact-info .info h6{
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 50px 0 100px 0;
+}
+.flex-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+}
+label {
+    display: block;
+    margin:65px 0 15px;
+    color: #ECF1EE;
+}
+input[type=text] {
+    width: 390px;
+    height: 40px;
+    border:none;
+    border-radius: 10px;
+    font-size: 16px;
+    
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 0 12px 50px;
+    outline: none;
+}
+input[type=email] {
+    width: 390px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+   
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 0 12px 50px;
+    outline: none;
+}
+.textarea{
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 35%;
+}
+textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    border: none;
+}
+iframe {
+    margin:65px 0 15px;
+    align-items: center;
+    justify-content: center;
+}
+.map{margin-bottom: 100px;}
+.map h3{
+    text-align: center;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+    margin: 70px 0 55px 0;
+}
+.map p{
+    width: 1043px;
+    border: 1px solid #01601B;
+    padding: 50px 80px;
+    margin: 0 auto;
+}
+.contact-container{
+    position: relative;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.only-flex{
+    display: flex;
+    align-items: center;
+}
+/* header */
+
+.inner-header{
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 75px;
+    border-bottom: 1px solid #000000;
+}
+.inner-header .logo{
+transition: .2s ease-in-out;
+}
+
+.inner-header .logo:hover{
+    filter: drop-shadow(0px 4px 10px #05641ebb);
+    transform: scale(1.1);
+}
+.inner-header nav{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.inner-header nav ul{
+    margin-right: 100px;
+}
+.inner-header nav ul li{
+    margin-right: 40px;
+}
+.inner-header .right-icons ul li:not(:last-child){
+    margin-right: 40px;
+}
+.inner-header .right-icons ul li svg:hover{
+    filter: drop-shadow(0px 4px 10px #01601abb);
+    transform: scale(1.1);
+}
+.inner-header .right-icons ul:first-child{
+    cursor: pointer;
+}
+.inner-header nav ul li a{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+.inner-header nav ul li a:hover{
+    text-shadow: 2px 1px 50px #01601af3;
+}

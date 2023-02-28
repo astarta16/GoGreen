@@ -23,9 +23,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
 ol, ul, li{
 	list-style: none;
 	text-decoration: none;
@@ -42,7 +39,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 *,
 *::before,
 *::after {
@@ -50,19 +46,12 @@ table {
   margin: 0;
   padding: 0;
 }
-
 button{
 	border: none;
     background-color: inherit;
 }
-
 a{
     text-decoration: none;
-}
-
-html,
-body{
-  height: 100%;
 }
 
 a:not([class]) {
